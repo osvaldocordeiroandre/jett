@@ -1,13 +1,140 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  padding: 0;
+
+  color: white;
+
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #191919;
+}
+
+.jett-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-image: url(./gif/background-jett.gif);
+}
+
+.jett-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 40px;
+}
+
+.jett-content img{
+  width: 100%;
+  max-width: 500px;
+}
+
+.jett-text h1{
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+}
+
+.jett-biografia-text{
+  max-width: 300px;
+
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.line{
+  border: solid 1px white;
+  
+  opacity: 40%;
+}
+
+/* iframe area */
+
+.iframne-youtube{
+  border-radius: 10px;
+
+  margin: 60px;
+}
+
+/* Skills area */
+
+.skills-container{
+  background-color: #ede7e0;
+
+  background-image: url(https://preview.redd.it/hi6ssqiitj251.png?width=3840&format=png&auto=webp&s=3f03452d63331fa90be8a4fd745e6466cf06e5fa);
+}
+
+.skills-content{
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Q-video {
+  max-width: 400px;
+
+  border-radius: 6px;
+}
+
+.habilidades-text h1{
+  color: #0c1925;
+
+  font-family: 'Anton', sans-serif;
+}
+
+ul{
+  list-style: none;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+ul li{
+  color: #0c1925;
+}
+
+ul li:not(:last-child){
+  margin-right: 20px;
+}
+
+ul li img{
+  background-color: #9e3241;
+
+  padding: 4px;
+
+  border-radius: 2px;
+
+  max-width: 60px;
+
+  cursor: pointer;
+}
+
+.skill-Q{
+  color: #0c1925;
+
+  font-family: Roboto;
+  font-weight: 300;
+
+  padding-left: 20px;
+}
+
+@media (max-width: 755px){
+  .Q-video{
+    margin-top: 60px;
+  }
 }
