@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../../index.css'
 
 import { NavLink, useLocation } from 'react-router-dom'
+import Title from '../../Title';
 
 export default function App() {
 
@@ -10,6 +11,8 @@ export default function App() {
 
   return (
     <div className='container'>
+
+      <Title title="Omen | Valorant" />
 
       <div className='jett-container'>
 

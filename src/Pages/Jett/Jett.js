@@ -4,6 +4,7 @@ import '../../index.css'
 import Jett from '../../gif/jett-Q-demostred.gif'
 
 import { NavLink, useLocation } from 'react-router-dom'
+import Title from '../../Title';
 
 export default function App() {
 
@@ -12,6 +13,8 @@ export default function App() {
     
   return (
     <div className='container'>
+
+      <Title title="Jett | Valorant"/>
       
       <div className='jett-container'>
 

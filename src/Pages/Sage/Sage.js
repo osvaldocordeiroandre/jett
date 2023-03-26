@@ -3,13 +3,19 @@ import '../../index.css'
 
 import { NavLink, useLocation } from 'react-router-dom'
 
+import Title from '../../Title'
+
 export default function App() {
 
   const location = useLocation();
   const [activeLink, setActiveLink] = useState('');
 
+
+
   return (
     <div className='container'>
+
+      <Title title="Sage | Valorant" />
 
       <div className='jett-container'>
 
@@ -40,7 +46,7 @@ export default function App() {
           <div className="jett-text">
 
             <span> // FUNÇÃO </span>
-            <h1> SENTINELA  <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt72ffc2e48d4a7a58/5eaa06852b79652f27c31ff6/Sentinel.png" alt="Função Sentinela"/></h1>
+            <h1> SENTINELA  <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt72ffc2e48d4a7a58/5eaa06852b79652f27c31ff6/Sentinel.png" alt="Função Sentinela" /></h1>
 
             <br />
 
