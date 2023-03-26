@@ -31,16 +31,25 @@ body{
   flex-wrap: wrap;
 
   margin-top: 40px;
+  margin-left: 60px;
 }
 
 .jett-content img{
   width: 100%;
   max-width: 500px;
+  
 }
 
 .jett-text h1{
   font-family: 'Anton', sans-serif;
   font-weight: 100;
+  font-size: 2.8rem;
+}
+
+.jett-text h1 img{
+  width: 30px;
+
+  margin-bottom: 16px;
 }
 
 .jett-biografia-text{
@@ -62,6 +71,8 @@ body{
   border-radius: 10px;
 
   margin: 60px;
+
+  width: 350px;
 }
 
 /* Skills area */
@@ -131,6 +142,38 @@ ul li img{
   font-weight: 300;
 
   padding-left: 20px;
+}
+
+/* Agentes container area */
+
+.agentes-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.agentes-container li{
+  color: white;
+
+  font-size: 6rem;
+  font-family: 'Anton', sans-serif;
+
+  cursor: pointer;
+  
+}
+
+.agentes-container li:hover{
+  color: #ff4b58;
+
+  margin-left: 20px;
+}
+
+.agentes-container .active-link{
+  color: #ff4b58;
+}
+
+a{
+  text-decoration: none;
 }
 
 @media (max-width: 755px){
