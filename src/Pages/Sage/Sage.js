@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import '../../index.css'
 
 import { NavLink, useLocation } from 'react-router-dom'
+import { AiOutlineArrowRight } from 'react-icons/ai'
+
 
 import Title from '../../Title'
 
@@ -40,6 +42,10 @@ export default function App() {
         </ul>
 
         <div className='jett-content'>
+
+        <NavLink to={'/omen'}>
+          <AiOutlineArrowRight size={30} />
+        </NavLink>
 
           <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png" alt="Sage" />
 

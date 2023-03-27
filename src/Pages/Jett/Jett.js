@@ -4,6 +4,8 @@ import '../../index.css'
 import Jett from '../../gif/jett-Q-demostred.gif'
 
 import { NavLink, useLocation } from 'react-router-dom'
+import { AiOutlineArrowRight } from 'react-icons/ai'
+
 import Title from '../../Title';
 
 export default function App() {
@@ -39,6 +41,10 @@ export default function App() {
         </ul>
 
         <div className='jett-content'>
+
+        <NavLink to={'/sage'}>
+          <AiOutlineArrowRight size={30} />
+        </NavLink>
 
           <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png" alt="jett" />
 

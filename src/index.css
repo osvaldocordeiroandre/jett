@@ -24,11 +24,22 @@ body{
   background-image: url(./gif/background-jett.gif);
 }
 
+.jett-container svg{
+  position: absolute;
+  bottom: 0;
+
+  margin-bottom: 20px;
+
+  display: none;
+}
+
 .jett-content{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  position: relative;
 
   margin-top: 40px;
   margin-left: 60px;
@@ -104,6 +115,7 @@ ul{
 
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 ul li{
@@ -177,6 +189,10 @@ a{
 
   .agentes-container{
     display: none;
+  }
+
+  .jett-container svg{
+    display: block;
   }
 
 }
