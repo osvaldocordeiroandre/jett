@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jett/static/css/main.5fa25b57.css",
-    "main.js": "/jett/static/js/main.de23d9d8.js",
+    "main.css": "/jett/static/css/main.29ad497f.css",
+    "main.js": "/jett/static/js/main.979eae4a.js",
     "static/media/jett-Q-demostred.gif": "/jett/static/media/jett-Q-demostred.8f3ed789651c79f94640.gif",
     "static/media/background-jett.gif": "/jett/static/media/background-jett.3ce5632c8951e726273d.gif",
     "index.html": "/jett/index.html",
-    "main.5fa25b57.css.map": "/jett/static/css/main.5fa25b57.css.map",
-    "main.de23d9d8.js.map": "/jett/static/js/main.de23d9d8.js.map"
+    "main.29ad497f.css.map": "/jett/static/css/main.29ad497f.css.map",
+    "main.979eae4a.js.map": "/jett/static/js/main.979eae4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fa25b57.css",
-    "static/js/main.de23d9d8.js"
+    "static/css/main.29ad497f.css",
+    "static/js/main.979eae4a.js"
   ]
 }
