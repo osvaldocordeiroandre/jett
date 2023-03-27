@@ -6,6 +6,8 @@ import Jett from '../../gif/jett-Q-demostred.gif'
 import { NavLink, useLocation } from 'react-router-dom'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
+import ScrollToTop from 'react-scroll-to-top'
+
 import Title from '../../Title';
 
 export default function App() {
@@ -15,6 +17,8 @@ export default function App() {
     
   return (
     <div className='container'>
+
+      <ScrollToTop color='#ff4b61'/>
 
       <Title title="Jett | Valorant"/>
       
